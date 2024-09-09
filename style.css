@@ -1,0 +1,52 @@
+.tablink {
+    background-color: #6C6C6C;
+    color: white;
+    float: left;
+    height: 50px;
+    cursor: pointer;
+    font-size: 17px;
+    width: 33.3%;
+    padding: 14px 16px;
+}
+
+.container {
+    background-color: #F5F5F5;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0px;
+
+}
+
+input {
+    font-size: 1.3rem;
+}
+
+h1 {
+    display: block;
+    font-size: 3rem;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #0044CC;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 10px 20px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 1rem;
+    border-color: black;
+    border-image: initial;
+    border-radius: 0px;
+}

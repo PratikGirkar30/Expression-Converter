@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expression Converter</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body style="margin:0px;background-color: #F5F5F5;">
+  <div id="doc3" class="yui-t2">
+    <div id="header">
+      <button class="tablink" onclick="openPage('infixToPostfix', this, 'orange')" id="defaultOpen">Infix to
+        Postfix</button>
+      <button class="tablink" onclick="openPage('infixToPrefix', this, 'orange')">Infix to
+        Prefix</button>
+      <button class="tablink" onclick="openPage('postfixToInfix', this, 'orange')">Postfix to Infix</button>
+      <button class="tablink" onclick="openPage('postfixToPrefix', this, 'orange')">Postfix to Prefix</button>
+      <button class="tablink" onclick="openPage('prefixToInfix', this, 'orange')">Prefix to Infix</button>
+      <button class="tablink" onclick="openPage('prefixToPostfix', this, 'orange')">Prefix to Postfix</button>
+    </div>
+
+    <div id="bd">
+      <div id="yui-main">
+        <div id=infixToPostfix class="container">
+          <h1>Infix to Postfix</h1>
+          <input type="text" id="infixInput" placeholder="Enter Infix expression" style="font-size: 1.3rem;"><br><br>
+          <button onclick="convertInfixToPostfix()" style="font-size: 1rem;">Convert & Calculate</button>
+          <div id="postfix"></div>
+        </div>
+
+        <div id=infixToPrefix class="container">
+          <h1>Infix to Prefix</h1>
+          <input type="text" id="infixInput1" placeholder="Enter Infix expression"><br><br>
+          <button onclick="convertInfixToPrefix()">Convert & Calculate</button>
+          <div id="prefix"></div>
+        </div>
+
+        <div id=postfixToInfix class="container">
+          <h1>Postfix to Infix</h1>
+          <input type="text" id="postfixInput" placeholder="Enter Postfix expression"><br><br>
+          <button onclick="convertPostfixToInfix()">Convert & Calculate</button>
+          <div id="infix"></div>
+        </div>
+
+        <div id=postfixToPrefix class="container">
+          <h1>Postfix to Prefix</h1>
+          <input type="text" id="postfixInput1" placeholder="Enter Postfix expression"><br><br>
+          <button onclick="convertPostfixToPrefix()">Convert & Calculate</button>
+          <div id="prefix1"></div>
+        </div>
+
+        <div id=prefixToPostfix class="container">
+          <h1>Prefix to Postfix</h1>
+          <input type="text" id="prefixInput" placeholder="Enter prefix expression"><br><br>
+          <button onclick="convertPrefixToPostfix()">Convert & Calculate</button>
+          <div id="postfix1"></div>
+        </div>
+
+        <div id=prefixToInfix class="container">
+          <h1>Prefix to Infix</h1>
+          <input type="text" id="prefixInput1" placeholder="Enter prefix expression"><br><br>
+          <button onclick="convertPrefixToInfix()">Convert & Calculate</button>
+
+          <div id="infix1"></div>
+        </div>
+
+        <script src="scripts.js"></script>
+      </div>
+      <div class="yui-b">
+        <div id="secondary">This is the Expression convertor used to Convert the Following Expression:<br><br><b>1.
+            Infix
+            to
+            Postfix <br>2. Infix to Prefix <br>3. Postfix to Infix <br>4. Postfix to Prefix<br>5. Prefix to Infix<br>6.
+            Prefix to
+            Postfix</b>
+        </div>
+      </div>
+    </div>
+    <div id="ft">
+      <footer>
+        <p>&copy; 2024 Expression Converter. All rights reserved.</p>
+        <p>Developed by Pratik Deep Girkar</p>
+        <ul>
+          <li>Contact Us</li>
+          <ul><i class="fas fa-phone"></i> +91 8485875398</ul>
+          <ul><i class="fas fa-envelope"></i> pratik.girkar30@gmail.com</ul>
+        </ul>
+    </div>
+    </footer>
+  </div>
+</body>
+
+</html>
