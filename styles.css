@@ -12,13 +12,13 @@ body {
 #doc,
 #doc2,
 #doc3,
-.yui-t1,
-.yui-t2,
-.yui-t3,
-.yui-t4,
-.yui-t5,
-.yui-t6,
-.yui-t7 {
+.div-t1,
+.div-t2,
+.div-t3,
+.div-t4,
+.div-t5,
+.div-t6,
+.div-t7 {
     margin: auto;
     text-align: left;
     width: 57.69em;
@@ -43,193 +43,193 @@ body {
 /* below required for all fluid grids; adjust widths and margins above accordingly */
 
 /* to preserve source-order independence for Gecko */
-.yui-b {
+.div-b {
     position: relative;
 }
 
-.yui-b {
+.div-b {
     _position: static;
 }
 
 /* for IE < 7 */
-#yui-main .yui-b {
+#div-main .div-b {
     position: static;
 }
 
-#yui-main {
+#div-main {
     width: 100%;
 }
 
-.yui-t1 #yui-main,
-.yui-t2 #yui-main,
-.yui-t3 #yui-main {
+.div-t1 #div-main,
+.div-t2 #div-main,
+.div-t3 #div-main {
     float: right;
     margin-left: -25em;
     /* IE: preserve layout at narrow widths */
 }
 
-.yui-t4 #yui-main,
-.yui-t5 #yui-main,
-.yui-t6 #yui-main {
+.div-t4 #div-main,
+.div-t5 #div-main,
+.div-t6 #div-main {
     float: left;
     margin-right: -25em;
     /* IE: preserve layout at narrow widths */
 }
 
-.yui-t1 .yui-b {
+.div-t1 .div-b {
     float: left;
     width: 12.3207em;
     *width: 12.0106em;
 }
 
-.yui-t1 #yui-main .yui-b {
+.div-t1 #div-main .div-b {
     margin-left: 13.3207em;
     *margin-left: 13.0106em;
 }
 
-.yui-t2 .yui-b {
+.div-t2 .div-b {
     float: left;
     width: 13.8456em;
     *width: 13.512em;
 }
 
-.yui-t2 #yui-main .yui-b {
+.div-t2 #div-main .div-b {
     margin-left: 14.8456em;
     *margin-left: 14.512em;
 }
 
-.yui-t3 .yui-b {
+.div-t3 .div-b {
     float: left;
     width: 23.0759em;
     *width: 22.52em;
 }
 
-.yui-t3 #yui-main .yui-b {
+.div-t3 #div-main .div-b {
     margin-left: 24.0759em;
     *margin-left: 23.52em;
 }
 
-.yui-t4 .yui-b {
+.div-t4 .div-b {
     float: right;
     width: 13.8456em;
     *width: 13.512em;
 }
 
-.yui-t4 #yui-main .yui-b {
+.div-t4 #div-main .div-b {
     margin-right: 14.8456em;
     *margin-right: 14.512em;
 }
 
-.yui-t5 .yui-b {
+.div-t5 .div-b {
     float: right;
     width: 18.4608em;
     *width: 18.016em;
 }
 
-.yui-t5 #yui-main .yui-b {
+.div-t5 #div-main .div-b {
     margin-right: 19.4608em;
     *margin-right: 19.016em;
 }
 
-.yui-t6 .yui-b {
+.div-t6 .div-b {
     float: right;
     width: 23.0759em;
     *width: 22.52em;
 }
 
-.yui-t6 #yui-main .yui-b {
+.div-t6 #div-main .div-b {
     margin-right: 24.0759em;
     *margin-right: 23.52em;
 }
 
-.yui-t7 #yui-main .yui-b {
+.div-t7 #div-main .div-b {
     display: block;
     margin: 0 0 1em 0;
 }
 
-#yui-main .yui-b {
+#div-main .div-b {
     float: none;
     width: auto;
 }
 
 /* GRIDS (not TEMPLATES) */
-.yui-g .yui-u,
-.yui-g .yui-g,
-.yui-gc .yui-u,
-.yui-gc .yui-g .yui-u,
-.yui-ge .yui-u,
-.yui-gf .yui-u {
+.div-g .div-u,
+.div-g .div-g,
+.div-gc .div-u,
+.div-gc .div-g .div-u,
+.div-ge .div-u,
+.div-gf .div-u {
     float: right;
     display: inline;
 }
 
-.yui-g div.first,
-.yui-gc div.first,
-.yui-gc div.first div.first,
-.yui-gd div.first,
-.yui-ge div.first,
-.yui-gf div.first {
+.div-g div.first,
+.div-gc div.first,
+.div-gc div.first div.first,
+.div-gd div.first,
+.div-ge div.first,
+.div-gf div.first {
     float: left;
 }
 
-.yui-g .yui-u,
-.yui-g .yui-g {
+.div-g .div-u,
+.div-g .div-g {
     width: 49.1%;
 }
 
-.yui-g .yui-g .yui-u,
-.yui-gc .yui-g .yui-u {
+.div-g .div-g .div-u,
+.div-gc .div-g .div-u {
     width: 48.1%;
 }
 
-.yui-gb .yui-u,
-.yui-gc .yui-u,
-.yui-gd .yui-u {
+.div-gb .div-u,
+.div-gc .div-u,
+.div-gd .div-u {
     float: left;
     margin-left: 2%;
     *margin-left: 1.895%;
     width: 32%;
 }
 
-.yui-gb div.first,
-.yui-gc div.first,
-.yui-gd div.first {
+.div-gb div.first,
+.div-gc div.first,
+.div-gd div.first {
     margin-left: 0;
 }
 
-.yui-gc div.first,
-.yui-gd .yui-u {
+.div-gc div.first,
+.div-gd .div-u {
     width: 66%;
 }
 
-.yui-gd div.first {
+.div-gd div.first {
     width: 32%;
 }
 
-.yui-ge .yui-u {
+.div-ge .div-u {
     width: 24%;
 }
 
-.yui-ge div.first,
-.yui-gf .yui-u {
+.div-ge div.first,
+.div-gf .div-u {
     width: 74.2%;
 }
 
-.yui-gf div.first {
+.div-gf div.first {
     width: 24%;
 }
 
-.yui-ge div.first {
+.div-ge div.first {
     width: 74.2%;
 }
 
 #bd:after,
-.yui-g:after,
-.yui-gb:after,
-.yui-gc:after,
-.yui-gd:after,
-.yui-ge:after,
-.yui-gf:after {
+.div-g:after,
+.div-gb:after,
+.div-gc:after,
+.div-gd:after,
+.div-ge:after,
+.div-gf:after {
     content: ".";
     display: block;
     height: 0;
@@ -238,12 +238,12 @@ body {
 }
 
 #bd,
-.yui-g,
-.yui-gb,
-.yui-gc,
-.yui-gd,
-.yui-ge,
-.yui-gf {
+.div-g,
+.div-gb,
+.div-gc,
+.div-gd,
+.div-ge,
+.div-gf {
     zoom: 1;
 }
 
